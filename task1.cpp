@@ -6,7 +6,7 @@ void setToHundred(int** p) {
 
 int main() {
     int x;
-    cin >> x;            // ignored
+    cin >> x;            
     int* px = &x;
     setToHundred(&px);
     cout << x << '\n';
